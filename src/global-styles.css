@@ -56,6 +56,10 @@ html {
   --color-white: hsl(0, 0%, 100%);
   --color-gray: hsla(210, 25%, 16%, 0.05);
   --color-black: hsla(0, 0%, 0%, 1);
+
+   --font-sm: calc(18 / 16 * 1rem);
+ 
+
 }
 
 body {

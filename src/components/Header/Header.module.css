@@ -1,0 +1,28 @@
+.header {
+  position: sticky;
+  top: 0;
+  max-width: calc(1320 / 16 * 1rem);
+  padding: 0 32px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 59px;
+  background-color: var(--color-gray);
+}
+
+.logo {
+  display: flex;
+  gap: 5px;
+}
+
+.accountBtn {
+  font-size: var(--font-sm);
+  background-color: transparent;
+}
+
+.btnsGroup {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

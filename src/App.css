@@ -1,7 +1,15 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
+.app {
+  max-width: calc(1200 / 16 * 1rem);
+  padding: 0 32px;
+  margin: 0 auto;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  width: 100%;
+}
